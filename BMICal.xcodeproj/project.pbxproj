@@ -12,6 +12,7 @@
 		45B72B3E20CCC2000036FD95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B72B3C20CCC2000036FD95 /* Main.storyboard */; };
 		45B72B4020CCC2030036FD95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B72B3F20CCC2030036FD95 /* Assets.xcassets */; };
 		45B72B4320CCC2030036FD95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B72B4120CCC2030036FD95 /* LaunchScreen.storyboard */; };
+		45B72B4B20CCC6980036FD95 /* ChildBMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B72B4A20CCC6980036FD95 /* ChildBMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		45B72B3F20CCC2030036FD95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45B72B4220CCC2030036FD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45B72B4420CCC2030036FD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B72B4A20CCC6980036FD95 /* ChildBMI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildBMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				45B72B3820CCC2000036FD95 /* AppDelegate.swift */,
 				45B72B3A20CCC2000036FD95 /* ViewController.swift */,
+				45B72B4A20CCC6980036FD95 /* ChildBMI.swift */,
 				45B72B3C20CCC2000036FD95 /* Main.storyboard */,
 				45B72B3F20CCC2030036FD95 /* Assets.xcassets */,
 				45B72B4120CCC2030036FD95 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45B72B3B20CCC2000036FD95 /* ViewController.swift in Sources */,
+				45B72B4B20CCC6980036FD95 /* ChildBMI.swift in Sources */,
 				45B72B3920CCC2000036FD95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L6F46UNTV9;
 				INFOPLIST_FILE = BMICal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L6F46UNTV9;
 				INFOPLIST_FILE = BMICal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
